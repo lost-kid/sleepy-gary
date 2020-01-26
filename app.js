@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const { TOKEN, prefix } = require('./assets/config.json');
 const yt = require('ytdl-core');
-const getInfoAsync = require('util').promisify(yt.getInfo);
-const url = require('url');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
