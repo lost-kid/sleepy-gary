@@ -1,0 +1,26 @@
+{
+  "name": "sleepy-gary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "opusscript": "^0.0.7",
+    "ytdl-core": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lost-kid/sleepy-gary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lost-kid/sleepy-gary/issues"
+  },
+  "homepage": "https://github.com/lost-kid/sleepy-gary#readme"
+}
