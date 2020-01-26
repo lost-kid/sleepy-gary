@@ -12,7 +12,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  const channel = client.channels.get("519651055185952775");
+  const channel = client.channels.get("660296444904865803");
   const server = msg.guild.id;
   if (!msg.content.startsWith(prefix) || msg.author.bot) return;
   if (msg.content === '-stop') {
