@@ -5,7 +5,7 @@ const yt = require('ytdl-core');
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 
-const funUrls = [ "https://www.youtube.com/watch?v=d1MWxSUO4ts&t=2081s", "https://www.youtube.com/watch?v=BhmRvUjJFh4", "https://www.youtube.com/watch?v=HNOEt2eWYLI", "https://www.youtube.com/watch?v=qyScKkRLeNs&t=22s", "https://www.youtube.com/watch?v=SuDnjx6bPa8", "https://www.youtube.com/watch?v=-50NdPawLVY", "https://www.youtube.com/watch?v=QOvZQH5Vl7k" ];
+const funUrls = [ "https://www.youtube.com/watch?v=BhmRvUjJFh4", "https://www.youtube.com/watch?v=HNOEt2eWYLI", "https://www.youtube.com/watch?v=qyScKkRLeNs&t=22s", "https://www.youtube.com/watch?v=SuDnjx6bPa8", "https://www.youtube.com/watch?v=-50NdPawLVY", "https://www.youtube.com/watch?v=QOvZQH5Vl7k" ];
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
