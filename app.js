@@ -11,6 +11,8 @@ client.commands = new Discord.Collection();
 const funUrls = [ "https://www.youtube.com/watch?v=BhmRvUjJFh4", "https://www.youtube.com/watch?v=HNOEt2eWYLI", "https://www.youtube.com/watch?v=qyScKkRLeNs&t=22s", "https://www.youtube.com/watch?v=SuDnjx6bPa8", "https://www.youtube.com/watch?v=-50NdPawLVY", "https://www.youtube.com/watch?v=QOvZQH5Vl7k" ];
 //const funUrls = [ "https://www.youtube.com/watch?v=pfmaTeh-7pk", "https://www.youtube.com/watch?v=is38pqgbj6A", "https://www.youtube.com/watch?v=0Vf1TpucUss" ];
 
+// (ﾉ °益°)ﾉ 彡 ┻━┻
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
